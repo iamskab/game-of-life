@@ -1,0 +1,9 @@
+#game-grid {
+    display: grid;
+    grid-template-columns: repeat(46, 1fr);
+    width: 95%;
+    max-width: 690px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px auto;
+}

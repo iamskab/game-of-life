@@ -1,0 +1,26 @@
+#menu {
+    display: grid;
+    max-width: 300px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 5px;
+    grid-template-columns: 1fr;
+    border: 2px solid #426c83;
+    border-radius: 5px;
+    background-color: white;
+}
+
+h2,p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 5px;
+}
